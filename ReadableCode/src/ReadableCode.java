@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 
 
 public class ReadableCode {
-	//task3
+	//task4
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		for(String filename : args){
