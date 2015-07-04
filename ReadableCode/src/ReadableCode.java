@@ -25,6 +25,7 @@ public class ReadableCode {
 		try {
 			FileInputStream inputStream = new FileInputStream(filename);
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+			printUser();
 			while((line = bufferedReader.readLine())!=null){
 				recipeID++;
 				printRecipe();
@@ -55,6 +56,9 @@ public class ReadableCode {
 		else{
 			if(recipeID==targetNum)System.out.println(recipeID + ":"+ line);
 		}
+	}
+	public void printUser(){
+		System.out.println("User: jun");
 	}
 
 }
