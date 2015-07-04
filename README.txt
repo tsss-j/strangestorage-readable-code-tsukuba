@@ -1,1 +1,3 @@
 今日の言語:Java
+プロジェクトはReadableCodeです。
+ReadableCode内に実行手順が書いてあります。
